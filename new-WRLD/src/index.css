@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #85937a;
+  background: #8A7C4E;
 }
 
 a { 
@@ -25,8 +25,8 @@ a {
 } 
 
 .btn {
-  background: #dfdcb9;
-  color: #212121;
+  background: #D76A27;
+  color: #FFFFFF;
   padding: 14px 25px;
   font-size: 16px;
   border-radius: 30px;
@@ -43,3 +43,17 @@ a {
   height: 30px;
   margin-left: 10px;
 }
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn:active {
+    background-color: #004494;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+

@@ -1,0 +1,57 @@
+.headshot {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: darkgreen;
+    flex-direction: row;
+
+}
+
+.bio-text {
+    
+    max-width: 100%;
+    
+    
+}
+
+.bio-text h1 {
+ 
+    font-size: 110px;;
+    font-weight: 450;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 40px;
+    width: 40%;  
+    border: 2px solid black; /* Width, style, and color of the border */
+    height: 600px;
+    width: 400px;
+    padding: 100px; /* Adds space inside the border */
+    display: inline-block; /* Ensures the box fits tightly around the text */
+    margin-inline-start: 450px;
+    
+    
+    
+}
+
+
+.text {
+
+    max-width: 70%;
+   
+    
+
+}
+
+.text p {
+    
+    line-height: 1.5;
+    font-size: 40px;
+    text-align: left;
+    font-style: italic;
+    padding-left: 7px;
+    max-width: 70%;
+   
+    
+    
+}

@@ -1,0 +1,28 @@
+.exp-back {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(42, 87, 45, 0.774),rgba(38, 51, 4, 0.856));
+    color: #2b5230;
+    display: flex;
+    align-items: center;
+    
+    
+    
+    
+   
+}
+
+.body {
+
+    width: 100%;
+    
+
+}
+
+.body p {
+
+    font-size: 45px;
+    color: black;
+    text-align: center;
+
+}

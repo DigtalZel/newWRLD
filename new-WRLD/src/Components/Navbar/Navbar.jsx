@@ -3,22 +3,34 @@ import './Navbar.css'
 
 
 const Navbar = () => {
-  return (
 
+
+  return (
+    <div>
     <nav className = 'container'>
        
         <ul>
-            <li><button className='btn'>Home</button></li>
-            <li><button className='btn'>About</button></li>
-            <li><button className='btn'>Experience</button></li>
-            <li><button className='btn'>Contact</button></li>
+            <li><button className='btn' onClick= {() => scrollToSection ('Home')}>Home</button>
+          
+      
+
+            </li>
+            <li><button className='btn' onClick= {() => scrollToSection ('About')}>About</button></li>
+            <li><button className='btn' onClick= {() => scrollToSection ('Exp')}>Experience</button></li>
+            <li><button className='btn' onClick= {() => scrollToSection ('Contact')}>Contact</button></li>
         </ul>
         
+
         
 
-    </nav>
+       
+
+    </nav></div>
     
   )
 }
 
+ const scrollToSection = (sectionId) => {
+    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+  };
 export default Navbar

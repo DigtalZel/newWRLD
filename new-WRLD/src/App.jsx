@@ -1,17 +1,28 @@
+
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
-import social from './Components/Socials/social'
+import Profile from './Components/Profile/Profile'
+import Exp from './Components/Exp/exp'
+import Contact from './Components/Contact/contact'
+
 
 const App = () => {
   return (
+    
     <div>
       
     <Navbar/>
     <Hero/>
-    <social/>
+    <Profile/>
+    <Exp/>
+    <Contact/>
+
       
     </div>
+    
+    
+   
   )
 }
 

@@ -1,25 +1,43 @@
 import React from 'react'
 import './hero.css'
-import arrow from '../../assets/arrow_pointer.png'
+import chi from '../../assets/chi.jpg'
+
 
 const Hero = () => {
   return (
+    <div id = 'Home' className = 'target-section'>
+
     <div className = 'hero container'>
-        <div className='hero-text'>
-          <h1>Welcome! This is my Portfolio.</h1>
+        <div  className='hero-text'>
+          <h1>Welcome to the newWRLD.</h1>
 
           <p>
-            This is a website built by me using react and vite combined. A highly
-            motivated front-end and mobile app developer.
+            Portfolio By Denzel Herron
           </p>
 
-           <button className='btn'>Explore More <img src = {arrow} alt = "" /></button>
+           
+
+          </div>
+
+
+     <div className='headshots'>
+      
+          <img src = {chi} alt = "" />
+
+        </div>
 
         </div>
        
-        
+         
     </div>
+
+   
+    
   )
 }
+
+const scrollToSection = (sectionId) => {
+  document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+};
 
 export default Hero
