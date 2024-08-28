@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+}
+
+body{
+  background-color: #e7e7e7;
+  
+}
+
+.btn {
+  background: #D76A27;
+  color: #FFFFFF;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+} 
+
+a { 
+ 
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.btn img {
+  width: 45px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.btn:hover {
+    background-color: #454372;
+}
+
+.btn:active {
+    background-color: #2F2963;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+

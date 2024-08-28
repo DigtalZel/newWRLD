@@ -10,11 +10,7 @@ const Navbar = () => {
     <nav className = 'container'>
        
         <ul>
-            <li><button className='btn' onClick= {() => scrollToSection ('Home')}>Home</button>
-          
-      
-
-            </li>
+            <li><button className='btn' onClick= {() => scrollToSection ('Home')}>Home</button></li>
             <li><button className='btn' onClick= {() => scrollToSection ('About')}>About</button></li>
             <li><button className='btn' onClick= {() => scrollToSection ('Exp')}>Experience</button></li>
             <li><button className='btn' onClick= {() => scrollToSection ('Contact')}>Contact</button></li>

@@ -1,0 +1,60 @@
+.about-bg{
+    min-height: 100vh;
+    background-color: #8A7C4E;
+    background-image: url('../../src/assets/about.png');
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position-x: 100vh;
+    background-blend-mode: soft-light;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+
+}
+
+.bio-text{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #D1D3B0;
+    width: 100%;
+    text-shadow: -2px -1px 5px #2F2963, 2px 1px 5px #454372;
+    position: relative;
+    top: 360px;
+    right: 920px;
+    text-align: center;
+    
+   
+    
+}
+
+.bio-text p{
+  
+    
+    font-size: 30px;
+    color: #D1D3B0;
+    width: 100%;
+    margin: 20px;
+   
+    
+        
+}
+
+.headline{
+
+  position: relative;
+  width: 100%;
+  top: 150px;
+  left: 80px;
+}
+
+.headline h1{
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #D1D3B0;
+    font-size: 200px;
+    text-shadow: -2px -1px 5px #2F2963, 2px 1px 5px #454372;    
+
+}

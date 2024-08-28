@@ -1,0 +1,32 @@
+.con-back{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #8A7C4E;
+    background-image: url('../../src/assets/contact.png');
+    background-size: 55%; 
+    background-position: top left;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+}
+
+.h1 {
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: #D1D3B0;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    min-height: 100vh;
+    padding: 250px 170px 25px 25px;
+    width: 100%;
+    text-shadow: -2px -1px 5px #2F2963, 2px 1px 5px #454372;    
+    
+}
+
+.logo{
+
+    background-image: url('../../src/assets/email.png');
+    background-position: center;
+}

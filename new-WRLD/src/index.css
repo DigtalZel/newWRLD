@@ -11,7 +11,7 @@
 body {
   background: #8A7C4E;
 }
-
+3
 a { 
  
   color: inherit;
@@ -56,4 +56,38 @@ a {
     outline: none;
 }
 
+.btn2{
+  display: inline-flex;
+  list-style: none;
+  margin: 5px 20px;
+  font-size: 25px;
+  background: #D76A27;
+  color: #FFFFFF;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: right;
+  justify-content: center;
+} 
 
+.btn2 img {
+  width: 45px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.btn2:hover {
+    background-color: #454372;
+}
+
+.btn2:active {
+    background-color: #2F2963;
+}
+
+.btn2:focus {
+    outline: none;
+}
